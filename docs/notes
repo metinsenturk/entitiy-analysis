@@ -1,0 +1,28 @@
+Information Extraction: Identify phrases in language that refer to specific type of entities and relations in text
+Named Entity Recognition: Extract pieces of information (subset of identifying names of people, places, organizations, etc.) relevant to a specific application
+Knowledge based NER (regular expressions)
+Learning NER (supervised and unsupervised methods)
+
+https://www.coursera.org/lecture/text-mining-analytics/3-2-explanations-of-named-entity-recognition-uQ7KH
+
+
+https://www.youtube.com/watch?v=LFXsG7fueyk
+https://www.youtube.com/watch?v=zi16nl82AMA&index=11&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+
+
+
+
+Paragraph -> program finds the entities -> tells user the entities  
+-	Question -> answer 
+
+
+If question:
+	Answer
+Elif entity_inquiry:
+	Entity
+Else:
+	Please include more information
+
+Datasets:
+Entities
+Dataset to use to correlate words/meaning to get train entities
