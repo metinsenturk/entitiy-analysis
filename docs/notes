@@ -1,7 +1,8 @@
-Information Extraction: Identify phrases in language that refer to specific type of entities and relations in text
-Named Entity Recognition: Extract pieces of information (subset of identifying names of people, places, organizations, etc.) relevant to a specific application
-Knowledge based NER (regular expressions)
-Learning NER (supervised and unsupervised methods)
+-Information Extraction: Identify phrases in language that refer to specific type of entities and relations in text
+-Named Entity Recognition: Extract pieces of information (subset of identifying names of people, places, organizations, etc.) 
+relevant to a specific application
+-Knowledge based NER (regular expressions)
+-Learning NER (supervised and unsupervised methods)
 
 https://www.coursera.org/lecture/text-mining-analytics/3-2-explanations-of-named-entity-recognition-uQ7KH
 
