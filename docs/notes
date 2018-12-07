@@ -6,16 +6,28 @@ relevant to a specific application
 
 https://www.coursera.org/lecture/text-mining-analytics/3-2-explanations-of-named-entity-recognition-uQ7KH
 
-
 https://www.youtube.com/watch?v=LFXsG7fueyk
 https://www.youtube.com/watch?v=zi16nl82AMA&index=11&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
 
+Text summarizer
+https://www.youtube.com/watch?v=ogrJaOIuBx4
+word2vec: 2 layer NN, pre-trained model, creates array for each word, e.g. King [0.5,0.7] and Queen [0.3,0.9] where each dimension 
+encodes difference in gender or title and magnitude represents the relevance to word
+GloVe: Global Vectors, count based, co-occurence matrix of words by context 
+
+Use 2 recurrent networks: Encoder and Decoder, for each sequence
+Encoder: input sequence -> represents with matrix 
+Decoder: decodes matrix -> predicts -> use as encoder -> decode until reach a headline
+- output word computes a weight for input words 
+
+Word embeddings:
+https://www.youtube.com/watch?v=5PL0TmQhItY
+He explains word2vec and GloVe but uses GloVe. 
 
 
 
 Paragraph -> program finds the entities -> tells user the entities  
 -	Question -> answer 
-
 
 If question:
 	Answer
@@ -25,5 +37,5 @@ Else:
 	Please include more information
 
 Datasets:
-Entities
-Dataset to use to correlate words/meaning to get train entities
+Entities (maybe GloVe has included)
+Dataset to use to correlate words/meaning to get train entities (for question/answer)
