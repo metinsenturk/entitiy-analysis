@@ -39,3 +39,6 @@ Else:
 Datasets:
 Entities (maybe GloVe has included)
 Dataset to use to correlate words/meaning to get train entities (for question/answer)
+
+SAME PROJECT:
+https://medium.com/district-data-labs/named-entity-recognition-and-classification-for-entity-extraction-6f23342aa7c5
